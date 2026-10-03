@@ -1,0 +1,6 @@
+{
+  "transaction_count": 3,
+  "transactions": [
+    {"id": "fa230000-0000-4000-8000-000000000001", "to": {"routing_number": "011000015", "account_number": "1690537988"}, "from": {"routing_number": "322271627", "account_number": "5550001111"}, "amount": {"amount": 100.00, "currency": "USD"}}
+  ]
+}

@@ -1,0 +1,12 @@
+# Override that runs the application against test/fixtures instead of data.
+#
+#   docker-compose -f docker-compose.yml -f docker-compose.test.yml up --build
+#
+# It uses its own project name, so its containers never mix with the ones
+# created by a plain `docker-compose up`.
+name: kraken-payments-test
+
+services:
+  app:
+    volumes:
+      - ./test/fixtures:/app/data:ro

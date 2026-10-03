@@ -1,0 +1,40 @@
+services:
+  database:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: kraken
+      POSTGRES_PASSWORD: kraken
+      POSTGRES_DB: kraken_payments
+    # The data directory lives in memory and no volume is declared, so nothing
+    # survives once this container stops. While it keeps running, it is the
+    # application that empties the tables at the start of every run.
+    tmpfs:
+      - /var/lib/postgresql/data
+    # The terminal must show nothing but the deposit report, so everything the
+    # database container prints (initialization and server log) is discarded.
+    # `docker-compose up` attaches to the container output no matter which
+    # logging driver is set, so the output is silenced at the source.
+    entrypoint: ["sh", "-c", "exec docker-entrypoint.sh postgres > /dev/null 2>&1"]
+    healthcheck:
+      # During initialization Postgres runs a temporary server that only accepts
+      # local socket connections. Checking over TCP keeps the database "unhealthy"
+      # until the final server is the one listening.
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U kraken -d kraken_payments"]
+      interval: 2s
+      timeout: 3s
+      retries: 30
+
+  app:
+    build: .
+    depends_on:
+      database:
+        condition: service_healthy
+    environment:
+      DATABASE_HOST: database
+      DATABASE_PORT: "5432"
+      DATABASE_USER: kraken
+      DATABASE_PASSWORD: kraken
+      DATABASE_NAME: kraken_payments
+      DATA_DIRECTORY: /app/data
+    volumes:
+      - ./data:/app/data:ro

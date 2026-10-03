@@ -1,0 +1,11 @@
+Deposited for Jadzia Dax: count=6 sum=3160.73 USD
+Deposited for James T. Kirk: count=5 sum=2087.89 USD
+Deposited for Jean-Luc Picard: count=3 sum=1573.55 USD
+Deposited for Jonathan Archer: count=7 sum=3763.39 USD
+Deposited for Leonard McCoy: count=3 sum=839.65 USD
+Deposited for Montgomery Scott: count=4 sum=2360.65 USD
+Deposited for Spock: count=10 sum=5312.81 USD
+Deposited for Wesley Crusher: count=3 sum=1694.19 USD
+Deposited without known user: count=4 sum=1786.67 USD
+Smallest valid deposit: 140.67 USD
+Largest valid deposit: 988.53 USD

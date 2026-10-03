@@ -1,0 +1,29 @@
+{
+  "transaction_count": 24,
+  "transactions": [
+    {"id": "fa050000-0000-4000-8000-000000000001", "to": {"routing_number": "011000015", "account_number": "8149516692"}, "from": {"routing_number": "322271627", "account_number": "5550001111"}, "amount": {"amount": "10.00", "currency": "USD"}},
+    {"id": "fa050000-0000-4000-8000-000000000002", "to": {"routing_number": "011000015", "account_number": "8149516692"}, "from": {"routing_number": "322271627", "account_number": "5550001111"}, "amount": {"amount": null, "currency": "USD"}},
+    {"id": "fa050000-0000-4000-8000-000000000003", "to": {"routing_number": "011000015", "account_number": "8149516692"}, "from": {"routing_number": "322271627", "account_number": "5550001111"}},
+    {"id": "fa050000-0000-4000-8000-000000000004", "to": {"routing_number": "011000015", "account_number": "8149516692"}, "from": {"routing_number": "322271627", "account_number": "5550001111"}, "amount": {"currency": "USD"}},
+    {"id": "fa050000-0000-4000-8000-000000000005", "to": {"routing_number": "011000015", "account_number": "8149516692"}, "from": {"routing_number": "322271627", "account_number": "5550001111"}, "amount": 10.00},
+    {"id": "fa050000-0000-4000-8000-000000000006", "to": {"routing_number": "011000015", "account_number": "8149516692"}, "from": {"routing_number": "322271627", "account_number": "5550001111"}, "amount": null},
+    {"id": "fa050000-0000-4000-8000-000000000007", "to": {"routing_number": "011000015", "account_number": "8149516692"}, "from": {"routing_number": "322271627", "account_number": "5550001111"}, "amount": {"amount": 1e400, "currency": "USD"}},
+    {"id": "fa050000-0000-4000-8000-000000000008", "to": {"routing_number": "011000015", "account_number": "8149516692"}, "from": {"routing_number": "322271627", "account_number": "5550001111"}, "amount": {"amount": 0, "currency": "USD"}},
+    {"id": "fa050000-0000-4000-8000-000000000009", "to": {"routing_number": "011000015", "account_number": "8149516692"}, "from": {"routing_number": "322271627", "account_number": "5550001111"}, "amount": {"amount": 0.00, "currency": "USD"}},
+    {"id": "fa050000-0000-4000-8000-000000000010", "to": {"routing_number": "011000015", "account_number": "8149516692"}, "from": {"routing_number": "322271627", "account_number": "5550001111"}, "amount": {"amount": -10.00, "currency": "USD"}},
+    {"id": "fa050000-0000-4000-8000-000000000011", "to": {"routing_number": "011000015", "account_number": "8149516692"}, "from": {"routing_number": "322271627", "account_number": "5550001111"}, "amount": {"amount": -0, "currency": "USD"}},
+    {"id": "fa050000-0000-4000-8000-000000000012", "to": {"routing_number": "011000015", "account_number": "8149516692"}, "from": {"routing_number": "322271627", "account_number": "5550001111"}, "amount": {"amount": 10.005, "currency": "USD"}},
+    {"id": "fa050000-0000-4000-8000-000000000013", "to": {"routing_number": "011000015", "account_number": "8149516692"}, "from": {"routing_number": "322271627", "account_number": "5550001111"}, "amount": {"amount": 10.000, "currency": "USD"}},
+    {"id": "fa050000-0000-4000-8000-000000000014", "to": {"routing_number": "011000015", "account_number": "8149516692"}, "from": {"routing_number": "322271627", "account_number": "5550001111"}, "amount": {"amount": 1e2, "currency": "USD"}},
+    {"id": "fa050000-0000-4000-8000-000000000015", "to": {"routing_number": "011000015", "account_number": "8149516692"}, "from": {"routing_number": "322271627", "account_number": "5550001111"}, "amount": {"amount": true, "currency": "USD"}},
+    {"id": "fa050000-0000-4000-8000-000000000016", "to": {"routing_number": "011000015", "account_number": "8149516692"}, "from": {"routing_number": "322271627", "account_number": "5550001111"}, "amount": {"amount": [10.00], "currency": "USD"}},
+    {"id": "fa050000-0000-4000-8000-000000000017", "to": {"routing_number": "011000015", "account_number": "8149516692"}, "from": {"routing_number": "322271627", "account_number": "5550001111"}, "amount": {"amount": {"value": 10.00}, "currency": "USD"}},
+    {"id": "fa050000-0000-4000-8000-000000000018", "to": {"routing_number": "011000015", "account_number": "8149516692"}, "from": {"routing_number": "322271627", "account_number": "5550001111"}, "amount": {"amount": 10.00, "currency": "EUR"}},
+    {"id": "fa050000-0000-4000-8000-000000000019", "to": {"routing_number": "011000015", "account_number": "8149516692"}, "from": {"routing_number": "322271627", "account_number": "5550001111"}, "amount": {"amount": 10.00, "currency": "usd"}},
+    {"id": "fa050000-0000-4000-8000-000000000020", "to": {"routing_number": "011000015", "account_number": "8149516692"}, "from": {"routing_number": "322271627", "account_number": "5550001111"}, "amount": {"amount": 10.00, "currency": "USD "}},
+    {"id": "fa050000-0000-4000-8000-000000000021", "to": {"routing_number": "011000015", "account_number": "8149516692"}, "from": {"routing_number": "322271627", "account_number": "5550001111"}, "amount": {"amount": 10.00, "currency": ""}},
+    {"id": "fa050000-0000-4000-8000-000000000022", "to": {"routing_number": "011000015", "account_number": "8149516692"}, "from": {"routing_number": "322271627", "account_number": "5550001111"}, "amount": {"amount": 10.00, "currency": null}},
+    {"id": "fa050000-0000-4000-8000-000000000023", "to": {"routing_number": "011000015", "account_number": "8149516692"}, "from": {"routing_number": "322271627", "account_number": "5550001111"}, "amount": {"amount": 10.00, "currency": 840}},
+    {"id": "fa050000-0000-4000-8000-000000000024", "to": {"routing_number": "011000015", "account_number": "8149516692"}, "from": {"routing_number": "322271627", "account_number": "5550001111"}, "amount": {"amount": 10.00}}
+  ]
+}
